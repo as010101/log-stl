@@ -1,6 +1,16 @@
-* [heap算法](# heap算法)
+## 目录
+
+* [线性探测的哈希表数据结构](#线性探测的哈希表数据结构)
+* [C/C++](#cc)
+* [STL](#stl)
+
+* [Contributors](#Contributors)
+* [License](#License)
+
+## C/C++
 # log-stl
 # 临时对象的产生与运用
+
 
 ​    临时对象 （易造成效率上的负担   用得当可以使得程序干净清爽）stl最常将此技巧运用于算法与仿函数（for_each 情形   p36）
 
