@@ -44,7 +44,9 @@ set  的键值与元素为相同的值，故其元素值干系到其元素的排
 
 map的所有元素都会根据元素的键值自动排序，map的元素类型是pair,不能更改其key，但可更改其value
 
-由于这两种结构的性质决定了其容器类型属于关联性容器，故这两种结构都要有key,将key挂于RB-tree中，依靠RB-tree实现高效的查找、删除， 
+由于这两种结构的性质决定了其容器类型属于关联性容器，故这两种结构都要有key,将key挂于RB-tree中，依靠RB-tree实现高效的查找、删除，
+
+map的iterator  返回<key,element>,即一个pair,可以用first和second分别访问key和second   at和[]只返回element
 
 
 
